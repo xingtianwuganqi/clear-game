@@ -1,0 +1,16 @@
+{
+  "name": "arrow-clear",
+  "version": "1.0.0",
+  "private": true,
+  "description": "一箭清空 · 微信小游戏 MVP（纯本地单机）",
+  "scripts": {
+    "test": "node --test tests/core.test.js tests/storage.test.js tests/ui.test.js",
+    "test:core": "node --test tests/core.test.js",
+    "test:storage": "node --test tests/storage.test.js",
+    "test:ui": "node --test tests/ui.test.js",
+    "audio": "node tools/gen-audio.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
